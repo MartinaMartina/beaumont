@@ -1,4 +1,5 @@
 # Ignore the following!
 .DS_Store
 .htaccess
-.wp-config/php
+wp-config.php
+wp-content/uploads/
