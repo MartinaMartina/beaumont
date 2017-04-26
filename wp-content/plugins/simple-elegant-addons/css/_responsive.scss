@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1080px ) {
+    
+}
+
+@media only screen and (max-width: 940px ) {
+    
+    /* Pricing Table
+    ------------------------------------------------ */
+    .pricing-column {
+        .pricing-features {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 740px ) {
+    
+    /* Callout
+    -------------------------------------------------------------------------------------- */
+    .wi-callout {
+        display: block;
+        text-align: center;
+    }
+    .callout-button {
+        margin: 20px auto 0;
+        text-align: center;
+    }
+    
+    /* Gallery
+     * 4 -> 2
+     * 5, 6 -> 3,
+     * 7,8 -> 4
+     * 10 -> 5
+    -------------------------------------------------------------------------------------- */
+    .wi-gallery.column-4 {
+        .gal-item {
+            width: 50%;
+        }
+    }
+    .wi-gallery.column-5,
+    .wi-gallery.column-6 {
+        .gal-item {
+            width: 33.33%;
+        }
+    }
+    .wi-gallery.column-7,
+    .wi-gallery.column-8 {
+        .gal-item {
+            width: 25%;
+        }
+    }
+    .wi-gallery.column-9,
+    .wi-gallery.column-10 {
+        .gal-item {
+            width: 20%;
+        }
+    }
+    
+}

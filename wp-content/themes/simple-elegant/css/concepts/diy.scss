@@ -1,0 +1,135 @@
+// Custom CSS for the concept "Handcrafted"
+
+@import "../bourbon/bourbon";
+
+/* Typography
+-------------------------------------------------------------------------------- */
+blockquote {
+    border-width: 0 0 0 4px;
+    margin-left: 2rem;
+}
+.wp-caption-text {
+    text-align: inherit;
+    color: #999;
+}
+
+/* Form Elements */
+#{$all-text-inputs} {
+    border: 0;
+    background: #eaeaea;
+    
+    @include placeholder {
+        color: #999;
+        opacity: 1;
+    }
+}
+
+/* Widgets
+-------------------------------------------------------------------------------- */
+.widget-title {
+    font-family: Arvo, serif;
+    text-align: left;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1em;
+}
+
+/* Blog Standard
+-------------------------------------------------------------------------------- */
+.entry-title:after,
+.page-title:after {
+    border-width: 3px 0 0;
+    width: 30px;
+}
+.entry-meta {
+    text-transform: none;
+    font-size: inherit;
+}
+
+.author-info {
+    padding: .7rem;
+    .author-inner {
+        padding: 2.4rem;
+        border: 1px dashed rgba(0, 0, 0, 0.17);
+    }
+}
+
+/* Authorbox
+-------------------------------------------------------------------------------- */
+.author-avatar {
+    width: 92px;
+}
+.author-title {
+    font-size: 1.2em;
+}
+.author-social-list {
+    
+    li {
+        margin: 0 2px;
+    }
+    a {
+        display: block;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 14px;
+        border-radius: 50%;
+        background: #ccc;
+        color: white;
+        text-align: center;
+        
+        &:hover {
+            background: #aaa;
+            color: white;
+        }
+        
+        i {
+            display: block;
+            line-height: inherit;
+        }
+    }
+}
+
+/* Comments
+-------------------------------------------------------------------------------- */
+/* Commentlist
+-------------------- */
+.comment-author img {
+    border: 3px solid white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+}
+.comment-metadata {
+    font-size: 11px;
+    text-transform: none;
+}
+.reply {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 1.2rem;
+}
+article.comment-body .fn a,
+.reply a {
+    text-decoration: none;
+}
+article.comment-body {
+    border-top-style: dashed;
+}
+
+/* Comment Form
+-------------------- */
+#respond p {
+    margin-bottom: 1.4rem;
+}
+.comment-form-author,
+.comment-form-email, 
+.comment-form-url {
+    width: auto;
+    float: none;
+    margin-left: 0;
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="url"] {
+        // width: 50%;
+    }
+}

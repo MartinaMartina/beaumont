@@ -1,0 +1,21 @@
+@include font-face('icomoon', "css/vendor/icomoon/icomoon", 'normal', 'normal', $file-formats: ttf woff svg);
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+}
+

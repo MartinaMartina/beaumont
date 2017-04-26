@@ -1,0 +1,17 @@
+/*
+Theme Name: Simple & Elegant Child
+Description: Child theme for Simple & Elegant Theme
+Author: Martina Fugazzotto
+Template: simple-elegant
+*/
+/* start write your custom CSS from here */
+
+
+/** homepage styles **/
+
+.vogue-quote {
+	text-transform: uppercase;
+	font-size: 54px;
+	color: #a7a9ac;
+
+}

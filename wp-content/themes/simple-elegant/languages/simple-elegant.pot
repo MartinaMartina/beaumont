@@ -1,0 +1,2618 @@
+# Made by WiThemes
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple & Elegant 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/simple-elegant\n"
+"POT-Creation-Date: 2016-11-02 17:42:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:16
+msgid "Nothing found :("
+msgstr ""
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:70
+msgid "&larr; Previous"
+msgstr ""
+
+#: archive.php:71
+msgid "Next &rarr;"
+msgstr ""
+
+#: archive.php:72 image.php:64 loops/content-page.php:28 loops/content.php:43
+msgid "Page"
+msgstr ""
+
+#: comments.php:27
+msgid "Comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:64 comments.php:67
+msgid "Name"
+msgstr ""
+
+#: comments.php:69 comments.php:72 inc/template-tags.php:54
+msgid "Email"
+msgstr ""
+
+#: comments.php:74 comments.php:76
+msgid "Website"
+msgstr ""
+
+#: comments.php:81
+msgid "Comment"
+msgstr ""
+
+#: footer.php:63
+msgid "Footer Logo"
+msgstr ""
+
+#: footer.php:77
+msgid "All rights reserved. Designed by %s"
+msgstr ""
+
+#: functions.php:68
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:69 inc/customizer copy.php:554 inc/customizer.php:554
+msgid "Topbar Menu"
+msgstr ""
+
+#: functions.php:109
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:111
+msgid "Plays Sidebar role for blog & archive pages"
+msgstr ""
+
+#: functions.php:119
+msgid "Post Sidebar"
+msgstr ""
+
+#: functions.php:121
+msgid "Plays Sidebar role for single post"
+msgstr ""
+
+#: functions.php:129
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:131
+msgid "Plays Sidebar role for pages"
+msgstr ""
+
+#: functions.php:139
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:141
+msgid "Footer widgets position 1"
+msgstr ""
+
+#: functions.php:149
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:151
+msgid "Footer widgets position 2"
+msgstr ""
+
+#: functions.php:159
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:161
+msgid "Footer widgets position 3"
+msgstr ""
+
+#: functions.php:405
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: functions.php:408
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: functions.php:413 functions.php:418
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: functions.php:426
+msgid "Instagram Photo"
+msgstr ""
+
+#: functions.php:459
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: header.php:78 header.php:80 inc/customizer copy.php:303
+#: inc/customizer.php:303
+msgid "Logo"
+msgstr ""
+
+#: header.php:115 header.php:159
+msgid "View your shopping cart"
+msgstr ""
+
+#: image.php:25
+msgid "&larr; Previous Image"
+msgstr ""
+
+#: image.php:25
+msgid "Next Image &rarr;"
+msgstr ""
+
+#: image.php:60 loops/content-page.php:24 loops/content.php:39
+msgid "Pages:"
+msgstr ""
+
+#: inc/admin/admin.php:123 inc/admin/admin.php:132 inc/admin/admin.php:141
+msgid "You have to import \"Slider Revolution\" manually."
+msgstr ""
+
+#: inc/admin/admin.php:282
+msgid "(Simple & Elegagant) Addons"
+msgstr ""
+
+#: inc/admin/admin.php:290
+msgid "(Simple & Elegagant) Portfolio"
+msgstr ""
+
+#: inc/admin/admin.php:314
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/admin/admin.php:320
+msgid "Mailchimp for Wordpress"
+msgstr ""
+
+#: inc/admin/admin.php:326
+msgid "Instagram Widget"
+msgstr ""
+
+#: inc/admin/admin.php:380
+msgid "Choose Image"
+msgstr ""
+
+#: inc/admin/admin.php:381 inc/admin/framework/metabox/metabox.php:738
+#: inc/admin/framework/metabox/metabox.php:918
+#: inc/admin/framework/widget/widget.php:385
+msgid "Change Image"
+msgstr ""
+
+#: inc/admin/admin.php:382 inc/admin/framework/metabox/metabox.php:738
+#: inc/admin/framework/metabox/metabox.php:918
+#: inc/admin/framework/widget/widget.php:385
+msgid "Upload Image"
+msgstr ""
+
+#: inc/admin/admin.php:384
+msgid "Choose Images"
+msgstr ""
+
+#: inc/admin/admin.php:385
+msgid "Change Images"
+msgstr ""
+
+#: inc/admin/admin.php:386 inc/admin/framework/metabox/metabox.php:798
+#: inc/admin/framework/widget/widget.php:433
+msgid "Upload Images"
+msgstr ""
+
+#: inc/admin/admin.php:388
+msgid "Choose File"
+msgstr ""
+
+#: inc/admin/admin.php:389 inc/admin/framework/metabox/metabox.php:697
+msgid "Change File"
+msgstr ""
+
+#: inc/admin/admin.php:390
+msgid "Upload File"
+msgstr ""
+
+#: inc/admin/admin.php:404
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/admin/admin.php:434 inc/admin/admin.php:448 inc/customizer copy.php:610
+#: inc/customizer copy.php:786 inc/customizer copy.php:891
+#: inc/customizer-helpers.php:15 inc/customizer.php:610 inc/customizer.php:786
+#: inc/customizer.php:891
+msgid "None"
+msgstr ""
+
+#: inc/admin/admin.php:457
+msgid "Page Settings"
+msgstr ""
+
+#: inc/admin/admin.php:460 inc/customizer copy.php:110 inc/customizer.php:110
+msgid "Layout"
+msgstr ""
+
+#: inc/admin/admin.php:461
+msgid "Side Navigation"
+msgstr ""
+
+#: inc/admin/admin.php:469
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/admin/admin.php:470
+msgid "This option doesn't affect fullwidth pages."
+msgstr ""
+
+#: inc/admin/admin.php:473 inc/customizer copy.php:1200 inc/customizer.php:1200
+msgid "Inherit"
+msgstr ""
+
+#: inc/admin/admin.php:474
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/admin/admin.php:475
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/admin/admin.php:483
+msgid "Page Padding Top"
+msgstr ""
+
+#: inc/admin/admin.php:491
+msgid "Page Padding Bottom"
+msgstr ""
+
+#: inc/admin/admin.php:499
+msgid "Hide page title?"
+msgstr ""
+
+#: inc/admin/admin.php:509
+msgid "Side Navigation Menu"
+msgstr ""
+
+#: inc/admin/admin.php:510
+msgid ""
+"By selecting a menu, you will automatically enable \"Side Navigation\" "
+"layout. To make side menu left, please click to tab \"Layout\" and select "
+"\"Sidebar Left\" layout."
+msgstr ""
+
+#: inc/admin/framework/formatui/views/format-audio.php:3
+msgid "Audio URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: inc/admin/framework/formatui/views/format-gallery.php:2
+msgid "Gallery Images"
+msgstr ""
+
+#: inc/admin/framework/formatui/views/format-gallery.php:23
+msgid "Pick Images"
+msgstr ""
+
+#: inc/admin/framework/formatui/views/format-link.php:3
+#: widgets/image/fields.php:20
+msgid "URL"
+msgstr ""
+
+#: inc/admin/framework/formatui/views/format-quote.php:4
+msgid "Source Name"
+msgstr ""
+
+#: inc/admin/framework/formatui/views/format-quote.php:8
+msgid "Source URL"
+msgstr ""
+
+#: inc/admin/framework/formatui/views/format-video.php:3
+msgid "Video URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: inc/admin/framework/formatui/views/tabs.php:9 inc/customizer copy.php:201
+#: inc/customizer copy.php:1188 inc/customizer copy.php:1201
+#: inc/customizer.php:201 inc/customizer.php:1188 inc/customizer.php:1201
+msgid "Standard"
+msgstr ""
+
+#: inc/admin/framework/formatui/vp-post-formats-ui.php:84
+msgid "Loading..."
+msgstr ""
+
+#: inc/admin/framework/formatui/vp-post-formats-ui.php:86
+msgid "Pick Gallery Images"
+msgstr ""
+
+#: inc/admin/framework/formatui/vp-post-formats-ui.php:87
+msgid "Add Image(s)"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:697
+msgid "Upload"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:719
+msgid "Remove File"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:750
+#: inc/admin/framework/metabox/metabox.php:788
+#: inc/admin/framework/metabox/metabox.php:927
+#: inc/admin/framework/widget/widget.php:395
+#: inc/admin/framework/widget/widget.php:424
+msgid "Remove Image"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:851
+msgid "Criterion: Design, Usability..."
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:857
+msgid "Score: 0 - 10"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:943 widgets/image/fields.php:7
+#: widgets/post-list/fields.php:18 widgets/post-list/fields.php:56
+#: widgets/social/fields.php:7
+msgid "Title"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:944
+msgid "Slide title"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:950
+msgid "Description"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:951
+msgid "Slide Description"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:957
+#: inc/admin/framework/metabox/metabox.php:958
+msgid "Slide link"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:964
+msgid "Same Tab"
+msgstr ""
+
+#: inc/admin/framework/metabox/metabox.php:965
+msgid "New Tab"
+msgstr ""
+
+#: inc/admin/framework/nav/nav-custom-fields.php:63
+msgid "Enable Mega Menu?"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:337
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:339
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:377
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/framework/tgm.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/framework/tgm.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/framework/tgm.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:393 inc/admin/framework/tgm.php:912
+#: inc/admin/framework/tgm.php:2618 inc/admin/framework/tgm.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:394 inc/admin/framework/tgm.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:395 inc/admin/framework/tgm.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:397
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:399
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:401
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:1019 inc/admin/framework/tgm.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2067
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2477
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/framework/tgm.php:2481
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/framework/tgm.php:2485
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/framework/tgm.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2688
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2693
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2699
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3583
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3586
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3588
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3594
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3594 inc/admin/framework/tgm.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3594 inc/admin/framework/tgm.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3597
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3602
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/admin/framework/tgm.php:3605
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/framework/widget/widget.php:188
+msgid "Edit"
+msgstr ""
+
+#: inc/admin/framework/widget/widget.php:189
+msgid "Add"
+msgstr ""
+
+#: inc/automatic-featured-images-from-videos.php:69
+msgid "Need a valid URL and post ID..."
+msgstr ""
+
+#: inc/back-compat.php:39 inc/back-compat.php:51 inc/back-compat.php:66
+msgid ""
+"Simple & Elegant requires at least WordPress version 4.2. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: inc/customizer copy.php:70 inc/customizer.php:70
+msgid "Style"
+msgstr ""
+
+#: inc/customizer copy.php:74 inc/customizer copy.php:153 inc/customizer.php:74
+#: inc/customizer.php:153
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer copy.php:94 inc/customizer copy.php:197 inc/customizer.php:94
+#: inc/customizer.php:197
+msgid "Select Concept"
+msgstr ""
+
+#: inc/customizer copy.php:98 inc/customizer copy.php:125 inc/customizer.php:98
+#: inc/customizer.php:125
+msgid "General"
+msgstr ""
+
+#: inc/customizer copy.php:102 inc/customizer copy.php:137 inc/customizer
+#: copy.php:161 inc/customizer.php:102 inc/customizer.php:137
+#: inc/customizer.php:161
+msgid "Header"
+msgstr ""
+
+#: inc/customizer copy.php:106 inc/customizer copy.php:145 inc/customizer
+#: copy.php:169 inc/customizer.php:106 inc/customizer.php:145
+#: inc/customizer.php:169
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer copy.php:114 inc/customizer.php:114
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer copy.php:118 inc/customizer.php:118
+msgid "Social"
+msgstr ""
+
+#: inc/customizer copy.php:129 inc/customizer copy.php:157
+#: inc/customizer.php:129 inc/customizer.php:157
+msgid "Body Text"
+msgstr ""
+
+#: inc/customizer copy.php:133 inc/customizer copy.php:240
+#: inc/customizer.php:133 inc/customizer.php:240
+msgid "Topbar"
+msgstr ""
+
+#: inc/customizer copy.php:141 inc/customizer copy.php:165
+#: inc/customizer.php:141 inc/customizer.php:165
+msgid "Main Menu"
+msgstr ""
+
+#: inc/customizer copy.php:173 inc/customizer.php:173
+msgid "Page Title"
+msgstr ""
+
+#: inc/customizer copy.php:177 inc/customizer copy.php:1726
+#: inc/customizer.php:177 inc/customizer.php:1726
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer copy.php:202
+msgid "Handcraft"
+msgstr ""
+
+#: inc/customizer copy.php:203 inc/customizer.php:203
+msgid "Photography"
+msgstr ""
+
+#: inc/customizer copy.php:207 inc/customizer.php:207
+msgid "Note that selecting concept may changes some options."
+msgstr ""
+
+#: inc/customizer copy.php:219 inc/customizer.php:219
+msgid "Container width (px)"
+msgstr ""
+
+#: inc/customizer copy.php:223 inc/customizer.php:223
+msgid ""
+"Enter a number, the width of both content area + sidebar area. Default is "
+"1020."
+msgstr ""
+
+#: inc/customizer copy.php:227 inc/customizer.php:227
+msgid "Sidebar Default Position"
+msgstr ""
+
+#: inc/customizer copy.php:231 inc/customizer.php:231
+#: widgets/social/fields.php:15
+msgid "Left"
+msgstr ""
+
+#: inc/customizer copy.php:232 inc/customizer.php:232
+#: widgets/social/fields.php:17
+msgid "Right"
+msgstr ""
+
+#: inc/customizer copy.php:246 inc/customizer.php:246
+msgid "Show Topbar"
+msgstr ""
+
+#: inc/customizer copy.php:254 inc/customizer.php:254
+msgid "Topbar Searchbox?"
+msgstr ""
+
+#: inc/customizer copy.php:262 inc/customizer.php:262
+msgid "Topbar Social Icons?"
+msgstr ""
+
+#: inc/customizer copy.php:270 inc/customizer.php:270
+msgid "Main Header"
+msgstr ""
+
+#: inc/customizer copy.php:276 inc/customizer.php:276
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer copy.php:279 inc/customizer.php:279
+msgid "Center Logo"
+msgstr ""
+
+#: inc/customizer copy.php:280 inc/customizer.php:280
+msgid "Left Logo - Right Text"
+msgstr ""
+
+#: inc/customizer copy.php:287 inc/customizer copy.php:720 inc/customizer
+#: copy.php:1429 inc/customizer.php:287 inc/customizer.php:720
+#: inc/customizer.php:1429
+msgid "Header Text"
+msgstr ""
+
+#: inc/customizer copy.php:290 inc/customizer.php:290
+msgid "Note that header text is only available for header layout 2."
+msgstr ""
+
+#: inc/customizer copy.php:294 inc/customizer.php:294
+msgid "Show Header Social Icons"
+msgstr ""
+
+#: inc/customizer copy.php:299 inc/customizer.php:299
+msgid "Note that this option is only available for header layout 2."
+msgstr ""
+
+#: inc/customizer copy.php:309 inc/customizer.php:309
+msgid "Upload your logo"
+msgstr ""
+
+#: inc/customizer copy.php:312 inc/customizer.php:312
+msgid ""
+"If you want your logo looks sharp on Retina devices, please upload a "
+"bigger-size image. Sample logo size is 880px wide (real logo size is 440px)."
+msgstr ""
+
+#: inc/customizer copy.php:316 inc/customizer.php:316
+msgid "Logo width"
+msgstr ""
+
+#: inc/customizer copy.php:319 inc/customizer.php:319
+msgid "Enter a number. Default logo width is 440px."
+msgstr ""
+
+#: inc/customizer copy.php:326 inc/customizer.php:326
+msgid "Logo padding top"
+msgstr ""
+
+#: inc/customizer copy.php:329 inc/customizer.php:329
+msgid "Enter a number, eg 10. Default logo padding top is 40px."
+msgstr ""
+
+#: inc/customizer copy.php:337 inc/customizer.php:337
+msgid "Logo padding bottom"
+msgstr ""
+
+#: inc/customizer copy.php:340 inc/customizer.php:340
+msgid "Enter a number, eg 50. Default logo padding bottom is 40px."
+msgstr ""
+
+#: inc/customizer copy.php:348 inc/customizer.php:348
+msgid "Show tagline below logo?"
+msgstr ""
+
+#: inc/customizer copy.php:358 inc/customizer.php:358
+msgid "Footer bottom layout"
+msgstr ""
+
+#: inc/customizer copy.php:363 inc/customizer.php:363
+#: widgets/image/fields.php:46 widgets/social/fields.php:16
+msgid "Center"
+msgstr ""
+
+#: inc/customizer copy.php:364 inc/customizer.php:364
+msgid "Left &mdash; Right"
+msgstr ""
+
+#: inc/customizer copy.php:370 inc/customizer.php:370
+msgid "Footer logo"
+msgstr ""
+
+#: inc/customizer copy.php:376 inc/customizer.php:376
+msgid "Footer logo width (px)"
+msgstr ""
+
+#: inc/customizer copy.php:385 inc/customizer.php:385
+msgid "Show Copyright Text"
+msgstr ""
+
+#: inc/customizer copy.php:393 inc/customizer.php:393
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer copy.php:394 inc/customizer.php:394
+msgid "You can use HTML & shortcodes. Use &gt;br /&lt; to enter a new line."
+msgstr ""
+
+#: inc/customizer copy.php:401 inc/customizer.php:401
+msgid "Show footer social icons"
+msgstr ""
+
+#: inc/customizer copy.php:411 inc/customizer.php:411
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer copy.php:415 inc/customizer.php:415
+msgid "Wide"
+msgstr ""
+
+#: inc/customizer copy.php:416 inc/customizer.php:416
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer copy.php:424 inc/customizer.php:424
+msgid "Boxed Background Options"
+msgstr ""
+
+#: inc/customizer copy.php:430 inc/customizer.php:430
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/customizer copy.php:439 inc/customizer.php:439
+msgid "Body Background Image"
+msgstr ""
+
+#: inc/customizer copy.php:448 inc/customizer.php:448
+msgid "Body Background Repeat"
+msgstr ""
+
+#: inc/customizer copy.php:452 inc/customizer.php:452
+msgid "No Repeat"
+msgstr ""
+
+#: inc/customizer copy.php:453 inc/customizer.php:453
+msgid "Repeat"
+msgstr ""
+
+#: inc/customizer copy.php:462 inc/customizer.php:462
+msgid "Body Background Size"
+msgstr ""
+
+#: inc/customizer copy.php:466 inc/customizer.php:466
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer copy.php:467 inc/customizer.php:467
+msgid "Contain"
+msgstr ""
+
+#: inc/customizer copy.php:468 inc/customizer.php:468
+msgid "Auto"
+msgstr ""
+
+#: inc/customizer copy.php:469 inc/customizer.php:469
+msgid "100% Width"
+msgstr ""
+
+#: inc/customizer copy.php:483 inc/customizer.php:483
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer copy.php:489 inc/customizer.php:489
+msgid "Accent Darker Color"
+msgstr ""
+
+#: inc/customizer copy.php:490 inc/customizer.php:490
+msgid "Accent darker color will be used for instance, button hover state."
+msgstr ""
+
+#: inc/customizer copy.php:498 inc/customizer.php:498
+msgid "Body Text Color"
+msgstr ""
+
+#: inc/customizer copy.php:507 inc/customizer.php:507
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer copy.php:516 inc/customizer.php:516
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer copy.php:525 inc/customizer.php:525
+msgid "Heading Text Color"
+msgstr ""
+
+#: inc/customizer copy.php:536 inc/customizer.php:536
+msgid "Topbar Background Color"
+msgstr ""
+
+#: inc/customizer copy.php:545 inc/customizer.php:545
+msgid "Topbar Border Color"
+msgstr ""
+
+#: inc/customizer copy.php:560 inc/customizer.php:560
+msgid "Topbar Menu Item Color"
+msgstr ""
+
+#: inc/customizer copy.php:569 inc/customizer.php:569
+msgid "Topbar Menu Item Hover Color"
+msgstr ""
+
+#: inc/customizer copy.php:578 inc/customizer.php:578
+msgid "Topbar Menu Item Active Color"
+msgstr ""
+
+#: inc/customizer copy.php:587 inc/customizer.php:587
+msgid "Dropdown Background"
+msgstr ""
+
+#: inc/customizer copy.php:596 inc/customizer copy.php:903
+#: inc/customizer.php:596 inc/customizer.php:903
+msgid "Dropdown Border Color"
+msgstr ""
+
+#: inc/customizer copy.php:605 inc/customizer.php:605
+msgid "Dropdown Border Width"
+msgstr ""
+
+#: inc/customizer copy.php:609 inc/customizer copy.php:890
+#: inc/customizer-helpers.php:11 inc/customizer-helpers.php:48
+#: inc/customizer.php:609 inc/customizer.php:890 widgets/image/fields.php:45
+msgid "Default"
+msgstr ""
+
+#: inc/customizer copy.php:622 inc/customizer.php:622
+msgid "Topbar Dropdown Padding"
+msgstr ""
+
+#: inc/customizer copy.php:632 inc/customizer.php:632
+msgid "Topbar Dropdown Item Color"
+msgstr ""
+
+#: inc/customizer copy.php:641 inc/customizer.php:641
+msgid "Topbar Dropdown Item Hover Color"
+msgstr ""
+
+#: inc/customizer copy.php:650 inc/customizer.php:650
+msgid "Topbar Dropdown Item Active Color"
+msgstr ""
+
+#: inc/customizer copy.php:660 inc/customizer.php:660
+msgid "Topbar Social Icons"
+msgstr ""
+
+#: inc/customizer copy.php:666 inc/customizer.php:666
+msgid "Topbar Social Icon Color"
+msgstr ""
+
+#: inc/customizer copy.php:675 inc/customizer.php:675
+msgid "Topbar Social Icon Hover Color"
+msgstr ""
+
+#: inc/customizer copy.php:686 inc/customizer.php:686
+msgid "Header Background"
+msgstr ""
+
+#: inc/customizer copy.php:695 inc/customizer.php:695
+msgid "Header Background Image"
+msgstr ""
+
+#: inc/customizer copy.php:696 inc/customizer.php:696
+msgid ""
+"You should provide a 1920px wide image. Keep it's size smaller than 200KB "
+"to speed up site loading time."
+msgstr ""
+
+#: inc/customizer copy.php:705 inc/customizer copy.php:1357
+#: inc/customizer.php:705 inc/customizer.php:1357
+msgid "Tagline"
+msgstr ""
+
+#: inc/customizer copy.php:711 inc/customizer.php:711
+msgid "Tagline Text Color"
+msgstr ""
+
+#: inc/customizer copy.php:726 inc/customizer.php:726
+msgid "Header Text Color"
+msgstr ""
+
+#: inc/customizer copy.php:735 inc/customizer.php:735
+msgid "Header Social Icons"
+msgstr ""
+
+#: inc/customizer copy.php:741 inc/customizer.php:741
+msgid "Header Social Icon Background"
+msgstr ""
+
+#: inc/customizer copy.php:750 inc/customizer.php:750
+msgid "Header Social Icon Color"
+msgstr ""
+
+#: inc/customizer copy.php:759 inc/customizer.php:759
+msgid "Header Social Icon Hover Background"
+msgstr ""
+
+#: inc/customizer copy.php:768 inc/customizer.php:768
+msgid "Header Social Icon Hover Color"
+msgstr ""
+
+#: inc/customizer copy.php:779 inc/customizer.php:779
+msgid "Main Navigation Border"
+msgstr ""
+
+#: inc/customizer copy.php:783 inc/customizer.php:783
+msgid "Top & Bottom"
+msgstr ""
+
+#: inc/customizer copy.php:784 inc/customizer.php:784
+msgid "Only Top"
+msgstr ""
+
+#: inc/customizer copy.php:785 inc/customizer.php:785
+msgid "Only Bottom"
+msgstr ""
+
+#: inc/customizer copy.php:795 inc/customizer.php:795
+msgid "Main Navigation Border Width"
+msgstr ""
+
+#: inc/customizer copy.php:799 inc/customizer.php:799
+msgid "Content Width"
+msgstr ""
+
+#: inc/customizer copy.php:800 inc/customizer.php:800
+msgid "Screen Width"
+msgstr ""
+
+#: inc/customizer copy.php:806 inc/customizer.php:806
+msgid "Main Navigation Border Color"
+msgstr ""
+
+#: inc/customizer copy.php:815 inc/customizer.php:815
+msgid "Main Navigation Background"
+msgstr ""
+
+#: inc/customizer copy.php:824 inc/customizer.php:824
+msgid "Menu Item Color"
+msgstr ""
+
+#: inc/customizer copy.php:833 inc/customizer.php:833
+msgid "Menu Item Hover Color"
+msgstr ""
+
+#: inc/customizer copy.php:842 inc/customizer.php:842
+msgid "Menu Item Active Color"
+msgstr ""
+
+#: inc/customizer copy.php:851 inc/customizer.php:851
+msgid "Menu Item Submenu Caret Color"
+msgstr ""
+
+#: inc/customizer copy.php:862 inc/customizer.php:862
+msgid "Dropdown"
+msgstr ""
+
+#: inc/customizer copy.php:868 inc/customizer.php:868
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: inc/customizer copy.php:877 inc/customizer.php:877
+msgid "Dropdown Padding"
+msgstr ""
+
+#: inc/customizer copy.php:886 inc/customizer.php:886
+msgid "Dropdown Border"
+msgstr ""
+
+#: inc/customizer copy.php:912 inc/customizer.php:912
+msgid "Submenu Item Color"
+msgstr ""
+
+#: inc/customizer copy.php:921 inc/customizer.php:921
+msgid "Submenu Item Hover Color"
+msgstr ""
+
+#: inc/customizer copy.php:930 inc/customizer.php:930
+msgid "Submenu Item Active Color"
+msgstr ""
+
+#: inc/customizer copy.php:939 inc/customizer.php:939
+msgid "Submenu Mega Leading Item Color"
+msgstr ""
+
+#: inc/customizer copy.php:950 inc/customizer.php:950
+msgid "Footer Theme"
+msgstr ""
+
+#: inc/customizer copy.php:954 inc/customizer.php:954
+msgid "Light"
+msgstr ""
+
+#: inc/customizer copy.php:955 inc/customizer.php:955
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer copy.php:961 inc/customizer.php:961
+msgid "Footer Widgets Area"
+msgstr ""
+
+#: inc/customizer copy.php:967 inc/customizer.php:967
+msgid "Footer Widgets Area Padding Top"
+msgstr ""
+
+#: inc/customizer copy.php:977 inc/customizer.php:977
+msgid "Footer Widgets Area Padding Bottom"
+msgstr ""
+
+#: inc/customizer copy.php:987 inc/customizer.php:987
+msgid "Footer Widgets Area Border Color"
+msgstr ""
+
+#: inc/customizer copy.php:988 inc/customizer copy.php:1042
+#: inc/customizer.php:988 inc/customizer.php:1042
+msgid "This option is only applied for footer light"
+msgstr ""
+
+#: inc/customizer copy.php:997 inc/customizer.php:997
+msgid "Footer Widgets Area Background"
+msgstr ""
+
+#: inc/customizer copy.php:1006 inc/customizer.php:1006
+msgid "Footer Widgets Text Color"
+msgstr ""
+
+#: inc/customizer copy.php:1015 inc/customizer.php:1015
+msgid "Footer Copyright Area"
+msgstr ""
+
+#: inc/customizer copy.php:1021 inc/customizer.php:1021
+msgid "Footer Bottom Padding Top"
+msgstr ""
+
+#: inc/customizer copy.php:1031 inc/customizer.php:1031
+msgid "Footer Bottom Padding Bottom"
+msgstr ""
+
+#: inc/customizer copy.php:1041 inc/customizer.php:1041
+msgid "Footer Bottom Border"
+msgstr ""
+
+#: inc/customizer copy.php:1051 inc/customizer.php:1051
+msgid "Footer Bottom Background"
+msgstr ""
+
+#: inc/customizer copy.php:1062 inc/customizer.php:1062
+msgid "Footer Widget Title"
+msgstr ""
+
+#: inc/customizer copy.php:1068 inc/customizer.php:1068
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: inc/customizer copy.php:1079 inc/customizer copy.php:1580
+#: inc/customizer.php:1079 inc/customizer.php:1580
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer copy.php:1085 inc/customizer.php:1085
+msgid "Copyright Text Color"
+msgstr ""
+
+#: inc/customizer copy.php:1094 inc/customizer.php:1094
+msgid "Copyright Link Color"
+msgstr ""
+
+#: inc/customizer copy.php:1105 inc/customizer.php:1105
+msgid "Footer Social Icons"
+msgstr ""
+
+#: inc/customizer copy.php:1111 inc/customizer.php:1111
+msgid "Icon Size"
+msgstr ""
+
+#: inc/customizer copy.php:1118 inc/customizer.php:1118
+msgid "Icon Font Size"
+msgstr ""
+
+#: inc/customizer copy.php:1128 inc/customizer.php:1128
+msgid "Icon Color"
+msgstr ""
+
+#: inc/customizer copy.php:1137 inc/customizer.php:1137
+msgid "Icon Background"
+msgstr ""
+
+#: inc/customizer copy.php:1146 inc/customizer.php:1146
+msgid "Icon Border"
+msgstr ""
+
+#: inc/customizer copy.php:1155 inc/customizer.php:1155
+msgid "Icon Hover Color"
+msgstr ""
+
+#: inc/customizer copy.php:1164 inc/customizer.php:1164
+msgid "Icon Hover Background"
+msgstr ""
+
+#: inc/customizer copy.php:1173 inc/customizer.php:1173
+msgid "Icon Hover Border"
+msgstr ""
+
+#: inc/customizer copy.php:1184 inc/customizer.php:1184
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer copy.php:1189 inc/customizer copy.php:1202
+#: inc/customizer.php:1189 inc/customizer.php:1202
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer copy.php:1190 inc/customizer copy.php:1203
+#: inc/customizer.php:1190 inc/customizer.php:1203
+msgid "List"
+msgstr ""
+
+#: inc/customizer copy.php:1196 inc/customizer.php:1196
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/customizer copy.php:1209 inc/customizer.php:1209
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer copy.php:1210 inc/customizer.php:1210
+msgid ""
+"Please enter a number. Excerpt length will be used in blog grid & list "
+"layout."
+msgstr ""
+
+#: inc/customizer copy.php:1219 inc/customizer.php:1219
+msgid "Body text"
+msgstr ""
+
+#: inc/customizer copy.php:1220 inc/customizer.php:1220
+msgid "Heading text"
+msgstr ""
+
+#: inc/customizer copy.php:1221 inc/customizer.php:1221
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer copy.php:1231 inc/customizer.php:1231
+msgid "Select Font"
+msgstr ""
+
+#: inc/customizer copy.php:1240 inc/customizer.php:1240
+msgid "Select Google Font for %s"
+msgstr ""
+
+#: inc/customizer copy.php:1249 inc/customizer.php:1249
+msgid "Enter custom font name for %s"
+msgstr ""
+
+#: inc/customizer copy.php:1252 inc/customizer.php:1252
+msgid "If you enter your custom font name, Google Font will be ignored"
+msgstr ""
+
+#: inc/customizer copy.php:1258 inc/customizer.php:1258
+msgid "Head Code"
+msgstr ""
+
+#: inc/customizer copy.php:1262 inc/customizer.php:1262
+msgid ""
+"Use this section to enqueue Font Scripts (or any script inside &lt;head&gt; "
+"tag) if you don't use Google Fonts"
+msgstr ""
+
+#: inc/customizer copy.php:1268 inc/customizer.php:1268
+msgid "Body Text Font Size"
+msgstr ""
+
+#: inc/customizer copy.php:1278 inc/customizer.php:1278
+msgid "Body Text Line Height"
+msgstr ""
+
+#: inc/customizer copy.php:1290 inc/customizer.php:1290
+msgid "Heading"
+msgstr ""
+
+#: inc/customizer copy.php:1296 inc/customizer.php:1296
+msgid "Heading Font Weight"
+msgstr ""
+
+#: inc/customizer copy.php:1307 inc/customizer.php:1307
+msgid "Heading Font Style"
+msgstr ""
+
+#: inc/customizer copy.php:1318 inc/customizer.php:1318
+msgid "Heading Text Transform"
+msgstr ""
+
+#: inc/customizer copy.php:1329 inc/customizer.php:1329
+msgid "Heading Letter Spacing"
+msgstr ""
+
+#: inc/customizer copy.php:1343 inc/customizer.php:1343
+msgid "%s font size"
+msgstr ""
+
+#: inc/customizer copy.php:1363 inc/customizer.php:1363
+msgid "Tagline Font"
+msgstr ""
+
+#: inc/customizer copy.php:1374 inc/customizer.php:1374
+msgid "Tagline Font Size"
+msgstr ""
+
+#: inc/customizer copy.php:1384 inc/customizer.php:1384
+msgid "Tagline Font Style"
+msgstr ""
+
+#: inc/customizer copy.php:1395 inc/customizer.php:1395
+msgid "Tagline Font Weight"
+msgstr ""
+
+#: inc/customizer copy.php:1406 inc/customizer.php:1406
+msgid "Tagline Text Transform"
+msgstr ""
+
+#: inc/customizer copy.php:1417 inc/customizer.php:1417
+msgid "Tagline Letter Spacing"
+msgstr ""
+
+#: inc/customizer copy.php:1435 inc/customizer.php:1435
+msgid "Header Text Font Size"
+msgstr ""
+
+#: inc/customizer copy.php:1436 inc/customizer.php:1436
+msgid "Header text is only available in header layout 2."
+msgstr ""
+
+#: inc/customizer copy.php:1448 inc/customizer.php:1448
+msgid "Navigation Item Font Size"
+msgstr ""
+
+#: inc/customizer copy.php:1458 inc/customizer.php:1458
+msgid "Navigation Item Font Style"
+msgstr ""
+
+#: inc/customizer copy.php:1469 inc/customizer.php:1469
+msgid "Navigation Item Font Weight"
+msgstr ""
+
+#: inc/customizer copy.php:1480 inc/customizer.php:1480
+msgid "Navigation Text Transform"
+msgstr ""
+
+#: inc/customizer copy.php:1491 inc/customizer.php:1491
+msgid "Navigation Letter Spacing"
+msgstr ""
+
+#: inc/customizer copy.php:1503 inc/customizer.php:1503
+msgid "Navigation Dropdown"
+msgstr ""
+
+#: inc/customizer copy.php:1509 inc/customizer.php:1509
+msgid "Dropdown Font Size"
+msgstr ""
+
+#: inc/customizer copy.php:1519 inc/customizer.php:1519
+msgid "Dropdown Font Weight"
+msgstr ""
+
+#: inc/customizer copy.php:1530 inc/customizer.php:1530
+msgid "Dropdown Font Style"
+msgstr ""
+
+#: inc/customizer copy.php:1541 inc/customizer.php:1541
+msgid "Dropdown Text Transform"
+msgstr ""
+
+#: inc/customizer copy.php:1552 inc/customizer.php:1552
+msgid "Dropdown Letter Spacing"
+msgstr ""
+
+#: inc/customizer copy.php:1564 inc/customizer.php:1564
+msgid "Footer Widget"
+msgstr ""
+
+#: inc/customizer copy.php:1570 inc/customizer.php:1570
+msgid "Footer Widget Font Size"
+msgstr ""
+
+#: inc/customizer copy.php:1586 inc/customizer.php:1586
+msgid "Copyright Font"
+msgstr ""
+
+#: inc/customizer copy.php:1597 inc/customizer.php:1597
+msgid "Copyright Font Size"
+msgstr ""
+
+#: inc/customizer copy.php:1607 inc/customizer.php:1607
+msgid "Copyright Font Weight"
+msgstr ""
+
+#: inc/customizer copy.php:1617 inc/customizer.php:1617
+msgid "Copyright Font Style"
+msgstr ""
+
+#: inc/customizer copy.php:1628 inc/customizer.php:1628
+msgid "Copyright Text Transform"
+msgstr ""
+
+#: inc/customizer copy.php:1639 inc/customizer.php:1639
+msgid "Copyright Letter Spacing"
+msgstr ""
+
+#: inc/customizer copy.php:1651 inc/customizer.php:1651
+msgid "Page Title Font"
+msgstr ""
+
+#: inc/customizer copy.php:1662 inc/customizer.php:1662
+msgid "Page Title Font Size"
+msgstr ""
+
+#: inc/customizer copy.php:1671 inc/customizer.php:1671
+msgid "Page Title Font Weight"
+msgstr ""
+
+#: inc/customizer copy.php:1681 inc/customizer.php:1681
+msgid "Page Title Font Style"
+msgstr ""
+
+#: inc/customizer copy.php:1692 inc/customizer.php:1692
+msgid "Page Title Text Transform"
+msgstr ""
+
+#: inc/customizer copy.php:1703 inc/customizer.php:1703
+msgid "Page Title Letter Spacing"
+msgstr ""
+
+#: inc/customizer copy.php:1717 inc/customizer.php:1717
+msgid "%s URL"
+msgstr ""
+
+#: inc/customizer-helpers.php:12
+msgid "UPPERCASE"
+msgstr ""
+
+#: inc/customizer-helpers.php:13
+msgid "lowercase"
+msgstr ""
+
+#: inc/customizer-helpers.php:14
+msgid "Capitalize"
+msgstr ""
+
+#: inc/customizer-helpers.php:31
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer-helpers.php:32
+msgid "Italic"
+msgstr ""
+
+#: inc/customizer-helpers.php:73
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer-helpers.php:74
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer-helpers.php:90
+msgid "Heading Font"
+msgstr ""
+
+#: inc/customizer-helpers.php:91
+msgid "Body Font"
+msgstr ""
+
+#: inc/customizer.php:202
+msgid "Do It Yourself"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-customizer-importer.php:36
+msgid "The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-customizer-importer.php:56
+msgid ""
+"The customizer import file is not in a correct format. Please make sure to "
+"use the correct customizer import file."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-customizer-importer.php:62
+msgid ""
+"The customizer import file is not suitable for current theme. You can only "
+"import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:70
+msgid "\"import_file_url\" or \"local_import_file\" for %s%s%s are not defined!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:176
+msgid "URL for %s%s%s file is not defined!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:198
+msgid ""
+"An error occurred while fetching %s%s%s file from the server!%sReason: %s - "
+"%s."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:238
+#: inc/demo-import/inc/class-ocdi-helpers.php:282
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %s%s."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:317
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:341
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory "
+"of your site. You can change this setting with these instructions: %s."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:352
+#: inc/demo-import/inc/class-ocdi-main.php:82
+#: inc/demo-import/inc/class-ocdi-main.php:103
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:353
+#: inc/demo-import/inc/class-ocdi-main.php:83
+#: inc/demo-import/inc/class-ocdi-main.php:214
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:365
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:373
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:438
+msgid "One Click Demo Import - "
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:474
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import "
+"demo data.%s"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:510
+msgid ""
+"Please upload XML file for content import. If you want to import widgets or "
+"customizer settings only, please use Widget Importer & Exporter or the "
+"Customizer Export/Import plugin."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:512
+#: inc/demo-import/inc/class-ocdi-helpers.php:534
+#: inc/demo-import/inc/class-ocdi-helpers.php:553
+#: inc/demo-import/inc/class-ocdi-helpers.php:561
+msgid "Upload files"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:530
+msgid "Widget file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:549
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:559
+msgid "The import files were successfully uploaded!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:577
+msgid "Initial max execution time = %s"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:581
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = "
+"%4$s%1$sCustomizer file = %5$s"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-helpers.php:585
+#: inc/demo-import/inc/class-ocdi-helpers.php:586
+msgid "not defined!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:110
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you "
+"might experience server timeout errors.%s"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:124
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme. It will allow you to quickly edit "
+"everything instead of creating content from scratch. When you import the "
+"data, the following things might happen:"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:128
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any "
+"other data will be deleted or modified."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:129
+msgid "Posts, pages, images, widgets and menus will get imported."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:130
+msgid ""
+"Please click \"Import Demo Data\" button only once and wait, it can take a "
+"couple of minutes."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:135
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:149
+msgid ""
+"There are no predefined import files available in this theme. Please upload "
+"the import files manually!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:154
+msgid "Choose a XML file for content import:"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:158
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:158
+#: inc/demo-import/inc/class-ocdi-main.php:162
+msgid "(*optional)"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:162
+msgid "Choose a DAT file for customizer import:"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:168
+msgid "Choose which demo you want to import:"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:190
+msgid "Import preview:"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:194
+#: inc/demo-import/inc/class-ocdi-main.php:245
+msgid "No preview image defined for this import."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:218
+msgid "Importing, please wait!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:304
+msgid "Manually uploaded files"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:321
+#: inc/demo-import/inc/class-ocdi-main.php:332
+msgid "Downloaded files"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:328
+msgid "The import files for: %s were successfully downloaded!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:338
+msgid "No import files specified!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:385
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please "
+"check your page and make sure that everything has imported correctly. If it "
+"did, you can deactivate the %3$sOne Click Demo Import%4$s plugin, because "
+"it has done its job.%5$s"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:396
+msgid ""
+"%1$sThe demo import has finished, but there were some import "
+"errors.%2$sMore details about the errors can be found in this %3$s%5$slog "
+"file%6$s%4$s%7$s"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:450
+msgid "Max execution time after content import = "
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:452
+msgid "Importing content"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:491
+#: inc/demo-import/inc/class-ocdi-main.php:503
+msgid "Importing widgets"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:525
+#: inc/demo-import/inc/class-ocdi-main.php:533
+msgid "Importing customizer settings"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:531
+msgid "Customizer settings import finished!"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-main.php:583
+msgid "Completed AJAX call number: "
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-widget-importer.php:44
+msgid "Widget import file could not be found."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-widget-importer.php:76
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-widget-importer.php:116
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-widget-importer.php:138
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-widget-importer.php:173
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-widget-importer.php:232
+msgid "Imported"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-widget-importer.php:236
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-widget-importer.php:242
+msgid "No Title"
+msgstr ""
+
+#: inc/demo-import/inc/class-ocdi-widget-importer.php:291
+msgid "No results for widget import!"
+msgstr ""
+
+#: inc/demo-import/one-click-demo-import.php:14
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the "
+"PHP version of your site to at least PHP 5.3.2.%4$s Your current version of "
+"PHP: %2$s%1$s%3$s"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:130
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:166
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:282
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:355
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:504
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:564
+msgid "Invalid author mapping"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:665
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:753
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:763
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:842
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:856
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:888
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1701
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:893
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1038
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1516
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1537
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1541
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1677
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1706
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1758
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1771
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1776
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1782
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1803
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1817
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1822
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1837
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1842
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1868
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1879
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1924
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1929
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1952
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1956
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1971
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1975
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: inc/demo-import/vendor/humanmade/WordPress-Importer/class-wxr-importer.php:1992
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: inc/template-tags.php:16
+msgid "Facebook"
+msgstr ""
+
+#: inc/template-tags.php:17
+msgid "Twitter"
+msgstr ""
+
+#: inc/template-tags.php:18
+msgid "Pinterest"
+msgstr ""
+
+#: inc/template-tags.php:19
+msgid "Instagram"
+msgstr ""
+
+#: inc/template-tags.php:20
+msgid "Google+"
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/template-tags.php:22
+msgid "Tumblr"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "YouTube"
+msgstr ""
+
+#: inc/template-tags.php:24
+msgid "Skype"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "Delicious"
+msgstr ""
+
+#: inc/template-tags.php:26
+msgid "Digg"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Reddit"
+msgstr ""
+
+#: inc/template-tags.php:28
+msgid "StumbleUpon"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Medium"
+msgstr ""
+
+#: inc/template-tags.php:30
+msgid "Vimeo"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Yahoo!"
+msgstr ""
+
+#: inc/template-tags.php:32
+msgid "Flickr"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "DeviantArt"
+msgstr ""
+
+#: inc/template-tags.php:34
+msgid "GitHub"
+msgstr ""
+
+#: inc/template-tags.php:35
+msgid "StackOverFlow"
+msgstr ""
+
+#: inc/template-tags.php:36
+msgid "Stack Exchange"
+msgstr ""
+
+#: inc/template-tags.php:37
+msgid "Bitbucket"
+msgstr ""
+
+#: inc/template-tags.php:38
+msgid "Xing"
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "Foursquare"
+msgstr ""
+
+#: inc/template-tags.php:40
+msgid "Paypal"
+msgstr ""
+
+#: inc/template-tags.php:41
+msgid "Yelp"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "Last.fm"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgid "Spotify"
+msgstr ""
+
+#: inc/template-tags.php:45
+msgid "Slideshare"
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid "Dribbble"
+msgstr ""
+
+#: inc/template-tags.php:47
+msgid "Steam"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgid "Behance"
+msgstr ""
+
+#: inc/template-tags.php:49
+msgid "Bloglovin'"
+msgstr ""
+
+#: inc/template-tags.php:50
+msgid "Weibo"
+msgstr ""
+
+#: inc/template-tags.php:51
+msgid "Trello"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "VKontakte"
+msgstr ""
+
+#: inc/template-tags.php:53
+msgid "Homepage"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgid "Feed"
+msgstr ""
+
+#: inc/template-tags.php:207
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/template-tags.php:210
+msgid "Older Comments"
+msgstr ""
+
+#: inc/template-tags.php:214
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/template-tags.php:292
+#. translators: %s: post title
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:586
+#. translators: %s: Name of current post
+msgid "More %s &raquo;"
+msgstr ""
+
+#: inc/template-tags.php:611 index.php:47 search.php:49
+msgid "&laquo; Previous"
+msgstr ""
+
+#: inc/template-tags.php:612 index.php:48 search.php:50
+msgid "Next &raquo;"
+msgstr ""
+
+#: loops/author-bio.php:12
+msgid "Published by"
+msgstr ""
+
+#: loops/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: loops/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: loops/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: loops/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: loops/content.php:36
+#. translators: %s: Name of current post
+msgid "Continue reading"
+msgstr ""
+
+#: search.php:26
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:4
+msgid "Go"
+msgstr ""
+
+#: single.php:34
+msgid "Next"
+msgstr ""
+
+#: single.php:35
+msgid "Next post:"
+msgstr ""
+
+#: single.php:37
+msgid "Previous"
+msgstr ""
+
+#: single.php:38
+msgid "Previous post:"
+msgstr ""
+
+#: widgets/image/fields.php:14
+msgid "Upload your image"
+msgstr ""
+
+#: widgets/image/fields.php:26
+msgid "Target?"
+msgstr ""
+
+#: widgets/image/fields.php:28
+msgid "Same tab"
+msgstr ""
+
+#: widgets/image/fields.php:29
+msgid "New tab"
+msgstr ""
+
+#: widgets/image/fields.php:37
+msgid "Text"
+msgstr ""
+
+#: widgets/image/fields.php:38
+msgid "Some custom text below image. You can use HTML here."
+msgstr ""
+
+#: widgets/image/fields.php:47
+msgid "Justify"
+msgstr ""
+
+#: widgets/image/fields.php:50
+msgid "Text Align"
+msgstr ""
+
+#: widgets/image/register.php:23
+msgid "Can use to display banner or about profile."
+msgstr ""
+
+#: widgets/image/register.php:26
+msgid "(S&E) Image"
+msgstr ""
+
+#: widgets/post-list/fields.php:2 widgets/post-list/fields.php:42
+msgid "All"
+msgstr ""
+
+#: widgets/post-list/fields.php:26
+msgid "Eg. 3"
+msgstr ""
+
+#: widgets/post-list/fields.php:27
+msgid "Number of posts to display"
+msgstr ""
+
+#: widgets/post-list/fields.php:35
+msgid "Only posts from categories:"
+msgstr ""
+
+#: widgets/post-list/fields.php:43
+msgid "Video"
+msgstr ""
+
+#: widgets/post-list/fields.php:44
+msgid "Gallery"
+msgstr ""
+
+#: widgets/post-list/fields.php:45
+msgid "Audio"
+msgstr ""
+
+#: widgets/post-list/fields.php:48
+msgid "Only Post Format:"
+msgstr ""
+
+#: widgets/post-list/fields.php:55
+msgid "Date"
+msgstr ""
+
+#: widgets/post-list/fields.php:57
+msgid "Slug"
+msgstr ""
+
+#: widgets/post-list/fields.php:58
+msgid "Modified Date"
+msgstr ""
+
+#: widgets/post-list/fields.php:59
+msgid "Random"
+msgstr ""
+
+#: widgets/post-list/fields.php:60
+msgid "Comment Count"
+msgstr ""
+
+#: widgets/post-list/fields.php:63
+msgid "Order By:"
+msgstr ""
+
+#: widgets/post-list/register.php:23
+msgid "Displays Post List"
+msgstr ""
+
+#: widgets/post-list/register.php:26
+msgid "(S&E) Post List"
+msgstr ""
+
+#: widgets/social/fields.php:20
+msgid "Align"
+msgstr ""
+
+#: widgets/social/fields.php:26
+msgid "Facebook URL"
+msgstr ""
+
+#: widgets/social/fields.php:33
+msgid "Twitter URL"
+msgstr ""
+
+#: widgets/social/fields.php:40
+msgid "Instagram URL"
+msgstr ""
+
+#: widgets/social/fields.php:47
+msgid "Pinterest URL"
+msgstr ""
+
+#: widgets/social/fields.php:54
+msgid "Google+ URL"
+msgstr ""
+
+#: widgets/social/fields.php:61
+msgid "YouTube URL"
+msgstr ""
+
+#: widgets/social/fields.php:68
+msgid "Soundcloud URL"
+msgstr ""
+
+#: widgets/social/register.php:24
+msgid "Displays social profile"
+msgstr ""
+
+#: widgets/social/register.php:27
+msgid "(Editorial) Social"
+msgstr ""
+
+#: woo/hooks.php:257
+msgid "WooCommerce"
+msgstr ""
+
+#: woo/hooks.php:273
+msgid "Custom number of products per page"
+msgstr ""
+
+#: woo/hooks.php:279
+msgid "Default Catalog Column Layout"
+msgstr ""
+
+#: woo/hooks.php:282
+msgid "2 Columns"
+msgstr ""
+
+#: woo/hooks.php:283
+msgid "3 Columns"
+msgstr ""
+
+#: woo/hooks.php:284
+msgid "4 Columns"
+msgstr ""
+
+#: woo/hooks.php:291
+msgid "Show header cart?"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Simple & Elegant"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"https://themeforest.net/item/simple-elegant-multipurpose-theme/13730411/?"
+"ref=withemes"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Multi-purpose Wordpress theme with elegant design & ease of use."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WiThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/withemes/?ref=withemes"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Fullwidth"
+msgstr ""
+
+#: comments.php:80
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: image.php:80
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span "
+"class=\"post-title\">%title</span>"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:1206 inc/admin/framework/tgm.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2427
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/admin/framework/tgm.php:2473
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/framework/tgm.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/template-tags.php:252 inc/template-tags.php:327
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:261
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:267 inc/template-tags.php:333 loops/content.php:50
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:270 inc/template-tags.php:336
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:282
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: loops/content.php:53
+msgctxt "Used before tag names."
+msgid "Tags:"
+msgstr ""

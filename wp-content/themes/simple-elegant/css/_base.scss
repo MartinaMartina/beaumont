@@ -1,0 +1,17 @@
+$border: #eaeaea;
+$heading: "PT Serif", serif;
+$body: "Open Sans", sans-serif;
+$nav: $body;
+$accent: #5EA7B1;
+$accent-darker: #3B8893;
+$accent-lighter: #8ECAD2;
+$base: #606060;
+
+.font-awesome {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

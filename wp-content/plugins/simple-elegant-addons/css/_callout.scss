@@ -1,0 +1,21 @@
+.callout-title {
+    margin: 0 0 5px;
+    line-height: 1.2;
+}
+.wi-callout {
+    @include display(flex);
+    @include align-items(center);
+    p {
+        margin: 0 0 8px;
+    }
+    .callout-message > *:last-child {
+        margin-bottom: 0;
+    }
+}
+.callout-button {
+    margin-left: auto;
+    padding-left: 2.4rem;
+    .wi-button {
+        margin: 0;
+    }
+}

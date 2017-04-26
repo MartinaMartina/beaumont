@@ -1,0 +1,450 @@
+/* Thank boz: http://stackoverflow.com/questions/16443380/common-css-media-queries-break-points */
+/* tablets and desktop */
+@media only screen and (max-width: 1080px ) {
+  
+    /* General
+    -------------------------------------------------------------------------------------- */
+    .container {
+        width: 940px;
+    }
+    
+}
+
+@media only screen and (max-width: 940px ) {
+    
+    /* General
+    -------------------------------------------------------------------------------------- */
+    .container {
+        width: 740px;
+    }
+    .wp-caption-text {
+        line-height: 1.5;
+        color: #888;
+        font-size: 11px;
+    }
+    blockquote {
+        padding-left: 20px;
+    } 
+    
+    /* Header
+    -------------------------------------------------------------------------------------- */
+    #logo-area {
+        border-bottom: 1px solid $border;
+        .container {
+            position: relative;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+    }
+    #hamburger,
+    #logo-area .header-cart {
+        display: block;
+    }
+    
+    #wi-topbar,
+    #wi-mainnav,
+    .header-2 .header-text, 
+    .header-2 #logo-area .social-list {
+        display: none;
+    }
+    
+    #wi-logo a {
+        display: table;
+        margin: 0 auto;
+    }
+    
+    // Header 2
+    //
+    .header-2 {
+        #logo-area {
+            .container {
+                display: block;
+            }
+        }
+    }
+    .header-2 #wi-logo {
+        text-align: center;
+    }
+    
+    // Nav
+    #mainnav-height {
+        display: none !important;
+    }
+    
+    /* General Classes
+    -------------------------------------------------------------------------------------- */
+    .row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .col {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    /* Layout
+    -------------------------------------------------------------------------------------- */
+    // Disable boxed layout
+    body.layout-boxed {
+        background: none !important;
+        #wi-wrapper {
+            box-shadow: none;
+            width: 100%;
+        }
+    }
+    #primary {
+        padding-right: 30px;
+    }
+    .sidebar-left #primary {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+    
+    /* Blog
+    -------------------------------------------------------------------------------------- */
+    .wi-article {
+        padding-top: 5rem;
+        margin-top: 5rem;
+    }
+    .wi-article:first-of-type {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .sticky,
+    .sticky:first-of-type {
+        background: none;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .sticky:first-of-type {
+        padding-top: 0;
+    }
+    .entry-meta {
+        text-transform: none;
+        > *:after {
+            margin: 0 5px;
+        }
+    }
+    
+    /* Blog Grid
+    -------------------- */
+    .grid-content {
+        font-size: .95em;
+        line-height: 1.7;
+    }
+    
+    /* Widgets
+    -------------------------------------------------------------------------------------- */
+    .widget-title {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .widget_archive ul li, 
+    .widget_categories ul li,
+    .widget_meta ul li,
+    .widget_nav_menu ul li,
+    .widget_pages ul li, 
+    .widget_recent_comments ul li,
+    .widget_recent_entries ul li {
+        padding: 6px 0;
+    }
+    
+    .tagcloud a {
+        margin-bottom: 5px;
+        padding: 2px 5px;
+    }
+    .post-widget .post-widget-thumbnail {
+        width: 80px;
+        margin-right: 10px;
+    }
+    .image-desc {
+        line-height: 1.7;
+        font-size: .95em;
+    }
+    
+    /* Single
+    -------------------------------------------------------------------------------------- */
+    .author-info {
+        padding: .8rem;
+        
+        .author-avatar {
+            margin-right: 2rem;
+            width: 56px;
+            padding: 3px;
+        }
+        .author-title {
+            font-size: 1.3em;
+        }
+    }
+    .author-inner {
+        padding: 2rem;
+    }
+    
+    /* Footer
+    -------------------------------------------------------------------------------------- */
+    .footer-widgets-container {
+        margin: 0 -15px;
+    }
+    .footer-col {
+        padding: 0 15px;
+        
+        & + .footer-col {
+            margin-top: 2rem;
+        }
+    }
+    
+}
+
+/* everything falls into a single column */
+@media only screen and (max-width: 740px) {
+    
+    /* General
+    -------------------------------------------------------------------------------------- */
+    .container {
+        width: 480px;
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .col {
+        width: 100% !important;
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+    .col:last-child {
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5, h6 {
+        font-size: 15px;
+    }
+    
+    /* Layout
+    -------------------------------------------------------------------------------------- */
+    
+    /* Main Layout
+    --------------------- */
+    #primary,
+    #secondary {
+        display: block;
+        width: 100%;
+        float: none !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    #secondary {
+        margin-top: 3rem;
+        .searchform form {
+            max-width: 100%;
+        }
+    }
+    
+    /* Wrapper
+    --------------------- */
+    #page-wrapper {
+        padding: 2rem 0 4rem;
+    }
+    
+    /* Header
+    -------------------------------------------------------------------------------------- */
+    body {
+        #wi-tagline {
+            letter-spacing: 1px;
+        }
+    }
+    
+    /* Blog
+    -------------------------------------------------------------------------------------- */
+    
+    /* Blog Grid
+     * 4 columns -> 2 columns
+     * 3 columns -> 2 columns
+    -------------------- */
+    .blog-grid.column-3,
+    .blog-grid.column-4 {
+        .post-grid {
+            width: 50%;
+        }
+    }
+    
+    /* Blog List
+    -------------------- */
+    .post-list-thumbnail {
+        width: 180px;
+    }
+    .list-content {
+        font-size: .95em;
+        line-height: 1.7;
+    }
+    
+    /* Footer
+    -------------------------------------------------------------------------------------- */
+    /* Footer Widgets
+     * Fall into single column
+    -------------------- */
+    .footer-widgets-container.column-3,
+    .footer-widgets-container.column-2 {
+        .footer-col {
+            width: 100%;
+        }
+    }
+    
+    /* Footer Bottom
+    -------------------- */
+    .footer-sides .container {
+        display: block;
+        text-align: center;
+        
+        .footer-right {
+            margin-top: 2rem;
+            .social-list {
+                display: table;
+                margin: 0 auto;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 480px ) {
+    
+    /* General
+    -------------------------------------------------------------------------------------- */
+    .container {
+        width: 420px; /* best for iphone 6 plus, iphone 7 */
+        max-width: 93%;
+    }
+    
+    /* Header
+    -------------------------------------------------------------------------------------- */
+    // Smaller Hamberger
+    #hamburger {
+        width: 24px;
+        span {
+            height: 2px;
+        }
+    }
+    body #logo-area {
+        padding: 20px 0;
+    }
+    #logo-area {
+        .container {
+            width: 96%;
+            padding-left: 48px;
+            padding-right: 48px;
+        }
+    }
+    #wi-tagline {
+        display: none; // disabled
+    }
+    
+}
+
+@media only screen and (max-width: 400px ) {
+    
+    /* General
+    -------------------------------------------------------------------------------------- */
+    .container {
+        width: 340px; /* best for iphone 6 */
+    }
+    blockquote {
+        line-height: 1.5;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5, h6 {
+        font-size: 14px;
+    }
+    
+    /* Blog
+    -------------------------------------------------------------------------------------- */
+    .entry-meta {
+        text-align: left;
+        >* {
+            padding: 3px 0;
+            display: block;
+            &:after {
+                display: none;
+            }
+
+            + * {
+                border-top: 1px solid $border;
+            }
+        }
+    }
+    
+    /* Blog Grid
+     * All -> 1 column
+    -------------------- */
+    .blog-grid.column-2,
+    .blog-grid.column-3,
+    .blog-grid.column-4 {
+        .post-grid {
+            width: 100%;
+        }
+    }
+    
+    /* Blog List
+    -------------------- */
+    .post-list-thumbnail {
+        width: 110px;
+        margin-right: 1.5rem;
+    }
+    .list-section {
+        .entry-meta.grid-meta {
+            margin-bottom: .5rem;
+        }
+    }
+    .list-title {
+        font-size: 1.3em;
+        margin-bottom: .5rem;
+    }
+    
+    /* Single
+    -------------------------------------------------------------------------------------- */
+    .entry-title, 
+    .page-title {
+        margin-bottom: 2rem;
+    }
+    
+}
+
+/* iPhone 4 + 5 */
+@media only screen and (max-width: 370px ) {
+    
+    /* General
+    -------------------------------------------------------------------------------------- */
+    .container {
+        width: 300px;
+    }
+    #wi-main {
+        overflow: hidden;
+    }
+    
+}

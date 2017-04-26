@@ -1,0 +1,146 @@
+.customize-control {
+    float: none;
+}
+
+.customize-section-description {
+    background: #ffd;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #d8d8a7;
+}
+
+/* DESIGN PANEL */
+#accordion-panel-withemes_design > .accordion-section-title,
+#customize-controls .control-section#accordion-panel-withemes_design > .accordion-section-title:hover {
+    background: #ffc !important;
+}
+
+/* ------------------------------------
+ * Placeholder
+ * ------------------------------------ */
+::-webkit-input-placeholder {
+    color: #bababa;
+}
+:-moz-placeholder {
+	color: #bababa;
+}
+::-moz-placeholder {
+	color: #bababa;
+	opacity: 1;
+	/* Since FF19 lowers the opacity of the placeholder by default */
+}
+:-ms-input-placeholder {
+	color: #bababa;
+}
+
+/**
+ * Customizer Loading 
+ */
+#customize-preview.wp-full-overlay-main:before, 
+.customize-loading #customize-container:before, 
+.theme-install-overlay .wp-full-overlay-main:before {
+    z-index: 1;
+}
+
+/** 
+ * Message
+ */
+.withemes-message {
+    padding: 20px;
+    font-size: 12px;
+    background: white;
+    border: 1px solid #53BB6B;
+}
+
+/** 
+ * Image Radio
+ */
+.customize-control-image_radio label {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 0;
+}
+.customize-control-image_radio label input[type="radio"] {
+    display: none;
+}
+.control-image-radio label input[type="radio"] + img {
+    opacity: .5;
+    border: 1px solid #000;
+}
+.control-image-radio label:hover input[type="radio"] + img {
+    opacity: .7;
+}
+.control-image-radio label input[type="radio"]:checked + img {
+    opacity: 1;
+    border-color: red;
+}
+
+/**
+ * Heading
+ */
+.withemes-customize-heading {
+}
+.withemes-customize-heading > h2 {
+    font-size: 12px; 
+    margin: 0;
+    
+    text-transform: uppercase;
+    margin: 15px 0;
+    padding: 6px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+.heading-desc {
+    font-size: 12px;
+    border-bottom: 3px solid #ddd;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/** 
+ * Typekit Status
+ */
+.typekit-loading-status {
+    display: block;
+    margin-top: 10px;
+}
+.typekit-loading-status.error {
+    color: red;
+}
+.typekit-loading-status.success {
+    color: green;
+}
+.typekit-loading-status.loading {
+    font-style: italic;
+}
+.typekit-loading-status .newfonts {
+    margin: 10px 0 0 10px;
+}
+
+/* ------------------------------------
+ * Import Export
+ * ------------------------------------ */
+.import-wrapper .file-holder,
+.import-wrapper .file-name {
+    display: none;
+}
+.import-wrapper.has-file .file-holder,
+.import-wrapper.has-file .file-name {
+    display: block;
+}
+.file-icon i {
+    font-size: 60px;
+    line-height: 1.2;
+    display: block;
+    margin: 10px 0;
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}

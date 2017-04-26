@@ -1,0 +1,117 @@
+/* Typography
+-------------------------------------------------------------------------------- */
+blockquote {
+  border-width: 0 0 0 4px;
+  margin-left: 2rem; }
+
+.wp-caption-text {
+  text-align: inherit;
+  color: #999; }
+
+/* Form Elements */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
+  border: 0;
+  background: #eaeaea; }
+  input[type="color"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, input[type="datetime"]::-webkit-input-placeholder, input[type="datetime-local"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, input[type="month"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="time"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, input[type="week"]::-webkit-input-placeholder, input:not([type])::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #999;
+    opacity: 1; }
+  input[type="color"]::-moz-placeholder, input[type="date"]::-moz-placeholder, input[type="datetime"]::-moz-placeholder, input[type="datetime-local"]::-moz-placeholder, input[type="email"]::-moz-placeholder, input[type="month"]::-moz-placeholder, input[type="number"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="search"]::-moz-placeholder, input[type="tel"]::-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="time"]::-moz-placeholder, input[type="url"]::-moz-placeholder, input[type="week"]::-moz-placeholder, input:not([type])::-moz-placeholder, textarea::-moz-placeholder {
+    color: #999;
+    opacity: 1; }
+  input[type="color"]:-moz-placeholder, input[type="date"]:-moz-placeholder, input[type="datetime"]:-moz-placeholder, input[type="datetime-local"]:-moz-placeholder, input[type="email"]:-moz-placeholder, input[type="month"]:-moz-placeholder, input[type="number"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="search"]:-moz-placeholder, input[type="tel"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input[type="time"]:-moz-placeholder, input[type="url"]:-moz-placeholder, input[type="week"]:-moz-placeholder, input:not([type]):-moz-placeholder, textarea:-moz-placeholder {
+    color: #999;
+    opacity: 1; }
+  input[type="color"]:-ms-input-placeholder, input[type="date"]:-ms-input-placeholder, input[type="datetime"]:-ms-input-placeholder, input[type="datetime-local"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, input[type="month"]:-ms-input-placeholder, input[type="number"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, input[type="text"]:-ms-input-placeholder, input[type="time"]:-ms-input-placeholder, input[type="url"]:-ms-input-placeholder, input[type="week"]:-ms-input-placeholder, input:not([type]):-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #999;
+    opacity: 1; }
+
+/* Widgets
+-------------------------------------------------------------------------------- */
+.widget-title {
+  font-family: Arvo, serif;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 1em; }
+
+/* Blog Standard
+-------------------------------------------------------------------------------- */
+.entry-title:after,
+.page-title:after {
+  border-width: 3px 0 0;
+  width: 30px; }
+
+.entry-meta {
+  text-transform: none;
+  font-size: inherit; }
+
+.author-info {
+  padding: .7rem; }
+  .author-info .author-inner {
+    padding: 2.4rem;
+    border: 1px dashed rgba(0, 0, 0, 0.17); }
+
+/* Authorbox
+-------------------------------------------------------------------------------- */
+.author-avatar {
+  width: 92px; }
+
+.author-title {
+  font-size: 1.2em; }
+
+.author-social-list li {
+  margin: 0 2px; }
+.author-social-list a {
+  display: block;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+  border-radius: 50%;
+  background: #ccc;
+  color: white;
+  text-align: center; }
+  .author-social-list a:hover {
+    background: #aaa;
+    color: white; }
+  .author-social-list a i {
+    display: block;
+    line-height: inherit; }
+
+/* Comments
+-------------------------------------------------------------------------------- */
+/* Commentlist
+-------------------- */
+.comment-author img {
+  border: 3px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
+
+.comment-metadata {
+  font-size: 11px;
+  text-transform: none; }
+
+.reply {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-top: 1.2rem; }
+
+article.comment-body .fn a,
+.reply a {
+  text-decoration: none; }
+
+article.comment-body {
+  border-top-style: dashed; }
+
+/* Comment Form
+-------------------- */
+#respond p {
+  margin-bottom: 1.4rem; }
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+  width: auto;
+  float: none;
+  margin-left: 0; }
+
+/*# sourceMappingURL=diy.css.map */

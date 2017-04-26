@@ -1,0 +1,93 @@
+.wi-gallery {
+    @include display(flex);
+    @include flex-flow(row wrap);
+    @include align-items(center);
+    margin: 0 -12px;
+    overflow: hidden;
+}
+.gal-item {
+    display: block;
+    overflow: hidden;
+    padding: 12px;
+    
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+.wi-gallery {
+    &.column-1 {
+        .gal-item,
+        .grid-sizer {
+            width: 100%;
+        }
+    }
+    &.column-2 {
+        .gal-item,
+        .grid-sizer {
+            width: 50%;
+        }
+    }
+    &.column-3 {
+        .gal-item,
+        .grid-sizer {
+            width: 33.33%;
+        }
+    }
+    &.column-4 {
+        .gal-item,
+        .grid-sizer {
+            width: 25%;
+        }
+    }
+    &.column-5 {
+        .gal-item,
+        .grid-sizer {
+            width: 20%;
+        }
+    }
+    &.column-6 {
+        .gal-item,
+        .grid-sizer {
+            width: 16.66%;
+        }
+    }
+    &.column-7 {
+        .gal-item,
+        .grid-sizer {
+            width: 14.28%;
+        }
+    }
+    &.column-8 {
+        .gal-item,
+        .grid-sizer {
+            width: 12.5%;
+        }
+    }
+    &.column-9 {
+        .gal-item,
+        .grid-sizer {
+            width: 11.11%;
+        }
+    }
+    &.column-10 {
+        .gal-item,
+        .grid-sizer {
+            width: 10%;
+        }
+    }
+}
+.gal-item-inner {
+    display: block;
+    margin: 0;
+    @include transition(all .1s);
+    // background: rgba(0,0,0,.08);
+    position: relative;
+    overflow: hidden;
+}
+.gal-item-inner a,
+.gal-item-inner img {
+    outline: 0;
+    display: block;
+    text-decoration: none;
+}

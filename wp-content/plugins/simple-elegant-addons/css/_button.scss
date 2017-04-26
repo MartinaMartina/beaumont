@@ -1,0 +1,187 @@
+/* Button
+-------------------------------------------------------------------------------------- */
+.wi-button {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+    vertical-align: bottom;
+    
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    
+    @include user-select(none);
+    
+    background-image: none;
+}
+a.wi-btn,
+button.wi-btn {
+    background: $accent;
+    color: #fff;
+    cursor: pointer;
+    
+    @include display(flex);
+    @include align-content(center);
+    @include align-items(center);
+    @include justify-content(center);
+    text-align: center;
+    
+    padding: 9px 22px;
+    white-space: nowrap;
+    font-family: $heading;
+    font-size: 12px;
+    outline: 0;
+    height: auto;
+    
+    @include transition( all .2s ease-out );
+    
+    &:hover {
+        color: #fff;
+        background: $accent-darker;
+    }
+    i {
+        margin-left: 8px;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: inherit;
+        width: auto;
+        height: auto;
+        font-size: inherit;
+    }
+    
+    &.btn-underline {
+        text-decoration: underline;
+    }
+}
+
+/* Shape
+--------------------- */
+.btn-rounded {
+    border-radius: 4px;
+}
+
+/* Size
+--------------------- */
+a.btn-small,
+button.btn-small {
+    padding: 7px 16px;
+    font-size: 10px;
+}
+a.btn-large,
+button.btn-large {
+    font-size: 14px;
+    padding: 14px 32px;
+}
+
+/* Alignment
+--------------------- */
+.wi-button.button-center,
+.wi-button.button-right {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+.wi-button.button-right {
+    text-align: right;
+    margin: 0;
+}
+.wi-button.button-center .wi-btn,
+.wi-button.button-right .wi-btn {
+    @include display(inline-flex);
+}
+
+    /* block */
+.wi-button.button-block {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wi-button.button-full .wi-btn {
+    width: 100%;
+}
+.wi-button.button-half {
+    width: 50%;
+}
+.wi-button.button-third {
+    width: 33.33%;
+}
+
+/* Different Styles
+--------------------- */
+
+    /* secondary */
+.wi-btn.btn-secondary {
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+}
+
+    /* alt */
+.wi-btn.btn-alt {
+    background: rgba(0,0,0,.07);
+    color: #777;
+    box-shadow: none;
+    
+    &:hover {
+        background: #{$accent};
+        color: #fff;
+    }
+}
+
+    /* black */
+.wi-btn.btn-black {
+    background: #222;
+    color: #ddd;
+}
+.wi-btn.btn-black:hover {
+    background: #000;
+    color: #fff;
+}
+
+    /* gray */
+.wi-btn.btn-gray {
+    background: rgba(0,0,0,.1);
+    color: #333;
+    
+    &:hover {
+        background: rgba(0,0,0,.3);
+        color: #fff;
+    }
+}
+
+    /* white */
+.wi-btn.btn-white {
+    background: #fff;
+    color: inherit;
+    color: rgba(0,0,0,0.8);
+    box-shadow: none;
+    
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+}
+
+    /* outline */
+.wi-btn.btn-outline,
+.wi-btn.btn-outline:hover {
+    background: none;
+    color: inherit;
+    border: 1px solid;
+    box-shadow: none;
+}
+
+
+    /* fill */
+.wi-btn.btn-fill {
+    background: none;
+    border: 1px solid $border;
+    box-shadow: none;
+    color: #999;
+    
+    &:hover {
+        color: #fff;
+        background: $accent;
+        border-color: transparent;
+    }
+}

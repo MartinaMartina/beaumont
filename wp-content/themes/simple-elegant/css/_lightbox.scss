@@ -1,0 +1,204 @@
+.mfp-bg {
+    z-index: 11042;
+}
+.mfp-wrap {
+    z-index: 11043;
+}
+
+/* Loader
+------------------------ */
+.mfp-preloader {
+    display: block;
+    direction: ltr;
+    text-indent: -9999px;
+    
+    background: url(images/loading.svg) center center no-repeat;
+    background-size: 32px;
+    height: 40px;
+}
+.mfp-s-error .mfp-preloader {
+    text-indent: 0;
+    background: none;
+}
+.mfp-s-error .mfp-preloader a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* Animation
+------------------------ */
+.mfp-gallery {
+    .mfp-figure {
+        opacity: 0;
+        @include transition( all .4s $ease-out-expo );
+        @include transform ( scale(.99) );
+    }
+    &.mfp-image-loaded .mfp-figure {
+        opacity: 1;
+        @include transform ( scale(1) );
+    }
+    &.mfp-image-loaded.mfp-removing .mfp-figure {
+        opacity: 0;
+        @include transform ( scale(.99) );
+    }
+}
+
+/* Frame
+------------------------ */
+.mfp-bg {
+    background: rgba(0,0,0,.85);
+    opacity: 1;
+    color: #fff;
+    @include transition( all 0.4s $ease-out-cubic );
+}
+.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+.mfp-figure:after {
+    display: none;
+}
+.mfp-iframe-scaler iframe {
+    box-shadow: none;
+    background: none;
+}
+.mfp-wrap {
+    color: #fff;
+}
+
+/* Video
+------------------------ */
+.mfp-content .wp-video {
+    max-height: 80%;
+    max-width: 80%;
+    margin: auto;
+}
+.mfp-content .wp-video-shortcode {
+    margin: 0;
+}
+
+/* Cursor
+------------------------ */
+.mfp-zoom-out-cur, 
+.mfp-zoom-out-cur
+.mfp-image-holder .mfp-close {
+    cursor: pointer;
+}
+
+/* Next / Prev
+------------------------ */
+button.mfp-arrow,
+button.mfp-arrow:hover {
+    display: block;
+    background: none;
+    color: inherit;
+    visibility: visible;
+    top: auto;
+    margin: 0;
+    width: 30px;
+    height: 40px;
+    font-size: 24px;
+    left: 30px;
+    top: 50%;
+    padding: 0;
+    margin: 0;
+    @incldue transition( color .3s ease-out);
+    @include transform(translate(0,-50%));
+    
+    i {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%,-50%));
+    }
+}
+button.mfp-arrow.mfp-arrow-right {
+    right: 30px;
+    left: auto;
+}
+button.mfp-arrow:before,
+button.mfp-arrow:after {
+    display: none;
+}
+
+button.mfp-arrow {
+    opacity: .7;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+/* Close
+------------------------ */
+.mfp-close,
+.mfp-image-holder .mfp-close, 
+.mfp-iframe-holder .mfp-close {
+    position: fixed;
+    top: 10px;
+    left: auto;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: inherit;
+    cursor: pointer;
+    @include transition( color .3s ease-out );
+    opacity: .7;
+    &:hover {
+        opacity: 1;
+    }
+}
+.mfp-close:hover,
+.mfp-image-holder .mfp-close:hover, 
+.mfp-iframe-holder .mfp-close:hover {
+    background: none;
+}
+.mfp-close i {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform( translate(-50%,-50%) );
+}
+
+.admin-bar .mfp-close {
+    top: 42px;
+}
+
+/* Fix MFP click target
+------------------------ */
+body button.mfp-arrow-left:before,
+body button.mfp-arrow-right:before,
+body .mfp-close:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 40;
+    border: none !important;
+    outline: 0;
+    background: none !important;
+    content: "";
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0;
+}
+
+/* Caption
+------------------------ */
+.mfp-title,
+.mfp-counter {
+    color: inherit;
+}
+
+/* TEXT
+------------------------ */
+.mfp-title {
+    font-family: $heading;
+}
+.mfp-counter {
+}
