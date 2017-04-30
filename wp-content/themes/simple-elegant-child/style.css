@@ -7,6 +7,13 @@ Template: simple-elegant
 /* start write your custom CSS from here */
 
 
+/** global styles **/
+
+a {
+    border-bottom: 0;
+	color: #ff0099;
+}
+
 /** homepage styles **/
 
 .vogue-quote {
@@ -14,4 +21,13 @@ Template: simple-elegant
 	font-size: 54px;
 	color: #a7a9ac;
 
+}
+
+.home-titles {
+	font-size: 24px;
+	color: #7b7c7f;
+	font-family: 'Open Sans';
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
 }
