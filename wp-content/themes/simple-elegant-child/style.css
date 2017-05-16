@@ -9,6 +9,9 @@ Template: simple-elegant
 
 /** global styles **/
 
+.entry-content p a {
+    border-bottom: none;
+}
 
 
 /** homepage styles **/
