@@ -33,6 +33,7 @@ Template: simple-elegant
 	text-align: center;
 }
 
+
 #home-course-offerings .home-course-roll-content {
 	width: 336px;
 	height: 236px;
@@ -150,31 +151,16 @@ Template: simple-elegant
 	display: none;
 }
 
-#press-items .single-press-item:hover .single-press-item-outlet {
-	display: block;
-	position: absolute;
-	z-index: 20;
-	padding-top: 80px;
-	font-size: 24px;
-	color: #ffffff;
-	font-family: 'Open Sans';
-	font-weight: 100;
-	text-transform: uppercase;
-	text-align: center;
-	-webkit-transform: translate(0, 10px);
-	-ms-transform: translate(0, 10px);
-	transform: translate(0, 10px);
-	-webkit-transition: all .5s ease;
-	transition: all .5s ease;
-}
-
-
-
 
 #press-items .single-press-item-title {
 	margin: 5px;
-	min-height: 75px;
-	
+	min-height: 75px;	
+}
+
+#press-items .press-video {
+	background: #000000;
+	width: 300px;
+	height: 200px;
 }
 
 

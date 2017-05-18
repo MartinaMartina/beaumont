@@ -31,7 +31,6 @@ get_header(); ?>
 			<?php query_posts('posts_per_page=100&post_type=press_piece'); ?>
 			<?php while ( have_posts() ) : the_post(); 
 				$press_title = get_field('press_title');
-				$press_outlet = get_field('press_outlet');
 				$press_link = get_field('press_link');
 				$press_logo = get_field('press_logo');
 				$size = "full";
@@ -44,21 +43,19 @@ get_header(); ?>
 			
 
 		<div class="press-item-container">	
+			<a href="<?php echo $press_link; ?>" target="_blank">
 			<div class="single-press-item">		
 				<?php if($press_logo) { ?>	
-					<a href="<?php echo $press_link; ?>" target="_blank"><h3 class="single-press-item-outlet"><?php echo $press_outlet; ?></h3></a>
-				
-				
-					<?php echo wp_get_attachment_image( $press_logo, $size );  ?>
+						<?php echo wp_get_attachment_image( $press_logo, $size );  ?>
 				<?php } ?>
 						
 					
 				<?php if($press_video) { ?>
-						<?php echo $press_video; ?>
+					<div class="press-video"><?php echo $press_video; ?></div>
 				<?php } ?>	
 						
 			</div>
-			
+			</a>
 			
 			
 		
